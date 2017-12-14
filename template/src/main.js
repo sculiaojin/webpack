@@ -29,4 +29,4 @@ new Vue({
   template: '<App/>',
   components: { App }{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   {{/if_eq}}
-})
+}){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
