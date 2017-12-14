@@ -151,5 +151,5 @@ module.exports = {
     } else {
       printMessage(data, chalk)
     }
-  },
+  }
 }

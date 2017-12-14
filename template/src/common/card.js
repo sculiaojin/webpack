@@ -149,7 +149,7 @@ const idCardNoUtil = {
             return null;
         }
     }
-};
+}
 export {
 	idCardNoUtil
 }
