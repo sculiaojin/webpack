@@ -13,6 +13,10 @@ import store from './store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
+Object.keys(filters).forEach((v, i) => {
+	Vue.filter(v, filters[v]);
+});
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
