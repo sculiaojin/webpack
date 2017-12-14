@@ -10,6 +10,7 @@ import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#vuex}}
 import store from './store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/vuex}}
+import axios from '@/common/axios'
 import filters from "./filter.js"
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.prototype.$ajax = axios
