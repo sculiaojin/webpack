@@ -12,7 +12,7 @@ import store from './store'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/vuex}}
 import filters from "./filter.js"
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
-
+Vue.prototype.$ajax = axios
 Object.keys(filters).forEach((v, i) => {
 	Vue.filter(v, filters[v]);
 });

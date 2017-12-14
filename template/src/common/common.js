@@ -1,4 +1,4 @@
-import idCardNoUtil from "@/common/card"
+import {idCardNoUtil} from "@/common/card"
 const Util = {
 	isIdCardNo(num) {
 		num = num.toUpperCase();

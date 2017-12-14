@@ -1,6 +1,7 @@
 import axios from 'axios'
 import store from '@/store'
 import router from '@/router'
+import Vue from 'vue'
 import  { LoadingPlugin } from 'vux'
 import  { ToastPlugin } from 'vux'
 Vue.use(ToastPlugin)
